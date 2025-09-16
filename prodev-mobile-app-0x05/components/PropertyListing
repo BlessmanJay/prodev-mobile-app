@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 import { useState } from "react";
 import PropertyListingCard from "./common/PropertyListingCard";
-import { PropertListing, PropertyListingProps } from "../interfaces";
+import { PropertyListing, PropertyListingProps } from "../interfaces";
 
-const PropertyListing = ({ listings }: PropertListing) => {
+const PropertyListing = ({ listings }: PropertyListing) => {
   return (
     <View
       style={{
